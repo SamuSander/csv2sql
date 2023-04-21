@@ -54,8 +54,9 @@ CREATE TABLE `output` (
   `status` text,
   `screeningTime` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-COMMIT;```
+COMMIT;
+```
 
-This script is useful when you need to create a table structure in your SQL database based on the column names from a CSV file.
+- This script is useful when you need to create a table structure in your SQL database based on the column names from a CSV file.
 
 
